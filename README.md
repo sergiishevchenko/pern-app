@@ -1,7 +1,7 @@
-## Project using PERN stack: PostgreSQL, Express, ReactJS, Node.js.
+## Project using PERN stack (PostgreSQL, Express, ReactJS, Node.js).
 
-Start Backend:
-npm run dev
+### Start Backend:
+`npm run dev`
 
-Start Frontend:
-npm start
+### Start Frontend:
+`npm start`
