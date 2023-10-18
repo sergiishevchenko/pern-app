@@ -1,2 +1,7 @@
-Backend: NodeJS, Express, PostgreSQL, Sequelize
-Frontend: ReactJS, React Bootstrap, Axios, React-router-dom, MobX
+## Project using PERN stack: PostgreSQL, Express, ReactJS, Node.js.
+
+Start Backend:
+npm run dev
+
+Start Frontend:
+npm start
