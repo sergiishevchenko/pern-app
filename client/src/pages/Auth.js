@@ -3,7 +3,7 @@ import {Container, Form} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
-import {NavLink, useLocation, useHistory} from "react-router-dom";
+import {NavLink, useLocation, useNavigate} from "react-router-dom";
 import {LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE} from "../utils/consts";
 import {login, registration} from "../http/userAPI";
 import {observer} from "mobx-react-lite";
@@ -13,7 +13,7 @@ import {Context} from "../index";
 const Auth = observer(() => {
     const {user} = useContext(Context)
     const location = useLocation()
-    const history = useHistory()
+    const history = useNavigate()
     const isLogin = location.pathname === LOGIN_ROUTE
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
